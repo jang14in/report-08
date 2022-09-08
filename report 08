@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <title>백제 문화제</title>
+  <width:20>
+  height:23px;
+  <margin-right:10>
+  background-image:url('./images/search.png');
+  background-size:cover;
+  text-indent:-5000px;
+  cursor: pointer;
+  <h1><a href="#">백제문화제</a></h1>
+  <ul class="btn-gp">
+    <li class="ico-search" id="btn-search">검색</li>
+    <li class="ico-btn-nav" id="btn-nav">네비버튼</li>
+  </ul>
+  ico-btn-nav{
+    width:28px;
+    heig
+     ht:23px;
+    background-image:url('./images/menu.png');
+    background-size:cover;
+    text-indent:-5000px;
+    cursor: pointer;
+  }
+  .search{
+    padding:20px;
+    background-color:rgba(0,0,0,0.8);
+    display:flex;
+    flex-flow:column nowrap; 
+    
+  }
+  .btn-close-search{
+    margin:20px 20px 200px;;
+    text-align:right;
+  }
+  .btn-close-search button{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border:none;
+    background-color:#fcb51d;
+    position:relative;
+    text-indent:-5000px;;
+  }
+  .btn-close-search button::before,
+  .btn-close-search button::after{
+    content:'';
+    display:block;
+    width:32px;
+    height:2px;
+    background-color:#333;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+  }
